@@ -29,7 +29,7 @@ If you find a bug in the source code or a mistake in the documentation, you can 
 Guidelines:
 
 1. Make sure the issue has not already been reported; use the search for issues.
-2. If possible, include a simple example demonstrating the issue (via [p5.js Web Editor](https://editor.p5js.org), [OpenProcessing](https://openprocessing.org/sketch/create), [CodePen](https://codepen.io/pen), etc.) using the latest p5.grain version.
+2. If possible, include a simple example demonstrating the issue (e.g. via [p5.js Web Editor](https://editor.p5js.org), [OpenProcessing](https://openprocessing.org/sketch/create), [CodePen](https://codepen.io/pen), etc.) using the latest p5.grain version.
 3. You are welcome to create an accompanying Pull Request with a fix. Check out the section on [Pull Requests](#pull-requests).
 
 ## Feature Requests

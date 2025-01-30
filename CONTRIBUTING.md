@@ -12,7 +12,7 @@ Although p5.grain can already be used for p5.js sketches in production, it's sti
 * [Coding Guidelines](#coding-guidelines)
 * [Commit Message Guidelines](#commit-message-guidelines)
 * [Licensing](#licensing)
-* [Roadmap](#roadmap)
+* [History & Roadmap](#history_and_roadmap)
 
 ## Code of Conduct
 
@@ -86,8 +86,8 @@ Guidelines:
         ```
 6. **Testing and examples**
     * If it makes sense (e.g. you added a new technique), create a standalone example inside the `/examples` directory.
-       * If your technique supports cross-browser animation, enable it by default.
-       * Use the existing examples as orientation for your example.<br>*NOTE: Examples only showcase the simplest implementation of a technique.*
+       * If your technique supports cross-browser animation, disable it by default. Take an example from [texture-overlay-inside](http://localhost:8888/xyz/p5.grain/examples/texture-overlay-inside) on how animation should be enabled in the example.
+       * Use the existing examples as orientation for your example.*NOTE: Examples only showcase the simplest implementation of a technique.*
     * Test all examples to see if they still work as expected in all major desktop and mobile browsers (especially Safari).
         * If you cannot test your changes in some browsers or platforms, mention this in the respective issue or discussion so that somebody else can check this.
     * If necessary, update existing examples to reflect your changes.
@@ -222,16 +222,19 @@ By making a contribution to this project, I certify that:
     this project or the open source license(s) involved.
 ```
 
-## Roadmap
+<a id="history_and_roadmap"></a>
+
+## History & Roadmap
 
 * [x] Add possibility for custom `granulate` functions (`v0.4.0`)
 * [x] Add possibility to apply grain and textures to offscreen graphics (`v0.5.0`)
 * [x] Add possibility to by-pass updating pixels when using `tinkerPixels` (`v0.6.0`)
 * [x] Add alias `loopPixels` for read-only mode (`v0.7.0`)
 * [x] Add support for instance mode (`v0.7.0`)
-* [ ] Improve pixel manipulation technique performance
-* [ ] Implement JavaScript module syntax
+* [x] Add support for `p5.Image` (`v0.8.0`)
+* [x] Improve pixel manipulation technique performance (`v0.8.0`)
 * [ ] Add possibility to use shaders
+* [ ] Implement JavaScript module syntax
 * [ ] Add possibility to build only specified functions to the minified version
 * [ ] Add npm scripts for Windows
 * [ ] Add npm scripts for Linux
